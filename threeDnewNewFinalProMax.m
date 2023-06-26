@@ -25,7 +25,7 @@ ylabel('Y-axis');
 zlabel('Z-axis');
 title('3D Surface Plot with Contour');
 % Define the duration in seconds
-duration = 60;
+duration = 120;
 
 % Get the start time
 start_time = time;
