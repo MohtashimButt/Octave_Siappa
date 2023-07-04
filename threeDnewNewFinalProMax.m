@@ -13,7 +13,6 @@ figure;
 % Plot the 3D surface plot
 surf(X, Y, Z);
 colorbar;  % Display a color bar
-
 hold on;
 
 % Plot the contour plot
@@ -24,22 +23,10 @@ xlabel('X-axis');
 ylabel('Y-axis');
 zlabel('Z-axis');
 title('3D Surface Plot with Contour');
-% Define the duration in seconds
-duration = 120;
 
-% Get the start time
-start_time = time;
-
-% Loop until the elapsed time reaches the desired duration
-while (time - start_time) < duration
-    % Empty loop body, no additional code needed here
-end
-
-
-%while true
+%keep the figure on screen
+while true
   
-%endwhile
+endwhile
 % Set the grid lines on
 grid on;
-
-
