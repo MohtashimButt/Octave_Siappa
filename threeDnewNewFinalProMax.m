@@ -25,8 +25,9 @@ zlabel('Z-axis');
 title('3D Surface Plot with Contour');
 
 %keep the figure on screen
+interval = 150
 while true
-  
+  pause(interval);
 endwhile
 % Set the grid lines on
 grid on;
